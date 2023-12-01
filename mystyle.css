@@ -16,6 +16,13 @@
     h1{
         color: black;
     }
+    section{
+        display: flex;
+        flex-direction:column;
+        margin: 10px;
+        background-color: white;
+        padding: 10px;
+    }
 }
 header{
     font-size:1.5vw;
@@ -50,13 +57,11 @@ body{
 }
 section{
     display: flex;
-    flex-direction:row;
     margin: 10px;
     background-color: white;
     padding: 10px;
 }
 .art1{
-    width: 500px;
     padding-right: 20px;
 }
 .art2{
